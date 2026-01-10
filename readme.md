@@ -50,19 +50,19 @@ It focuses on **core concepts you must understand** to start and grow in GenAI �
 ### 00. Prerequisites
 | Topic | Status |
 |-----|--------|
-| Python essentials for GenAI | Planned |
-| ML vs DL vs GenAI | Planned |
-| Probability intuition (softmax, entropy) | Planned |
-| Linear algebra intuition (vectors, dot product, cosine similarity) | Planned |
-| Why GPUs & accelerators matter | Planned |
-| Numerical precision (FP32 vs FP16 vs INT8) | Planned |
+| Python essentials for GenAI | Published |
+| ML vs DL vs GenAI | Published |
+| Probability intuition (softmax, entropy) | Published |
+| Linear algebra intuition (vectors, dot product, cosine similarity) | Published |
+| Why GPUs & accelerators matter | Published |
+| Numerical precision (FP32 vs FP16 vs INT8) | Published |
 
 ---
 
 ### 01. LLM Fundamentals
 | Topic | Status |
 |-----|--------|
-| What is a Large Language Model | Planned |
+| What is a Large Language Model | Published |
 | Evolution: n-grams → RNN → Transformer | Planned |
 | Tokens and tokenization | Planned |
 | Vocabulary size & token efficiency | Planned |
