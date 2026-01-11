@@ -66,3 +66,6 @@ LLMs can drive business impact across use cases and different industries. Exampl
 **Summarization and paraphrasing:** LLMs can summarize papers, articles, customer calls or meetings and concisely capture the most important points.
 
 **Security:** LLMs can be used in cybersecurity to identify threat patterns and automate responses.
+
+
+# Author : Mathi Yuvarajan T.K
