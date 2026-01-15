@@ -63,7 +63,7 @@ It focuses on **core concepts you must understand** to start and grow in GenAI �
 | Topic | Status |
 |-----|--------|
 | What is a Large Language Model | Published |
-| Evolution: n-grams → RNN → Transformer | Planned |
+| Evolution: n-grams → RNN → Transformer | Published |
 | Tokens and tokenization | Planned |
 | Vocabulary size & token efficiency | Planned |
 | Embeddings: geometry and meaning | Planned |
