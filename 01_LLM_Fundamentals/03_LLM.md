@@ -2,7 +2,9 @@
 
 ## Introduction
 
-When discussing generative AI model performance, attention often goes to parameter counts, architecture innovations, or training data scale. However, two interconnected and frequently overlooked factors significantly impact model capability, efficiency, and cost: **vocabulary size** and **token efficiency**. This technical deep dive explores how these elements shape model behavior, influence computational requirements, and affect downstream applications.
+When discussing generative AI model performance, attention often goes to parameter counts, architecture innovations, or training data scale. However, two interconnected and frequently overlooked factors significantly impact model capability, efficiency, and cost: **vocabulary size** and **token efficiency**. 
+
+This technical deep dive explores how these elements shape model behavior, influence computational requirements, and affect downstream applications.
 
 ## 1. Tokenization: The First Layer of Abstraction
 
