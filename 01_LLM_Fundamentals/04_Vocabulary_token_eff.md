@@ -125,4 +125,5 @@ Byte-level models:       Image:
 **Pros:** No OOV, universal ** Pros:** Continuous, compositional
 **Cons:** Long sequences     **Cons:** Novel training approaches
 
+##
 [Will be Updated. Fork and Save this repo....](https://github.com/mathi27)
