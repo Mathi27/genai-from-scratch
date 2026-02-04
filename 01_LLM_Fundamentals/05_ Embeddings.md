@@ -21,3 +21,17 @@ Where:
 
 Each token gets a unique d-dimensional vector
 
+## 2.2 The Embedding Matrix
+
+The complete embedding space is represented as a matrix:
+
+```
+W ∈ ℝ^(V × d)
+```
+
+Where row i contains the embedding vector for token i. For a 50K vocabulary with d=4096:
+
+**Parameters:** 50,000 × 4,096 = **204.8** million
+
+**Memory**: **~410 MB** (in bfloat16)
+
