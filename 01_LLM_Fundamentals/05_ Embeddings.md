@@ -35,3 +35,5 @@ Where row i contains the embedding vector for token i. For a 50K vocabulary with
 
 **Memory**: **~410 MB** (in bfloat16)
 
+[ will be continued.....]
+
