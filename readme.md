@@ -64,8 +64,8 @@ It focuses on **core concepts you must understand** to start and grow in GenAI �
 |-----|--------|
 | What is a Large Language Model | Published |
 | Evolution: n-grams → RNN → Transformer | Published |
-| Tokens and tokenization | Planned |
-| Vocabulary size & token efficiency | Planned |
+| Tokens and tokenization | Published |
+| Vocabulary size & token efficiency | Published |
 | Embeddings: geometry and meaning | Planned |
 | Attention mechanism (intuition → math) | Planned |
 | Self-attention vs cross-attention | Planned |
