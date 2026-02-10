@@ -213,4 +213,4 @@ This is why modern systems reduce hallucinations using:
 - Explicit “I don’t know” training
 
 ---
-[Author : Mathi]()
+[Author : Mathi Yuvrajan ]()
