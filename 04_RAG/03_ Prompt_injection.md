@@ -1,3 +1,7 @@
 # Prompt injection via Markdown files is a specific type of Indirect Prompt Injection.
 
 This occurs when an AI application (like a summarizer, RAG system, or documentation bot) processes a Markdown file that contains hidden or adversarial instructions. The AI, unable to distinguish between the system instructions (what it's supposed to do) and the content (the file), executes the instructions found inside the file.
+
+#### under editing..
+
+Author : Mathi Yuvarajan 
