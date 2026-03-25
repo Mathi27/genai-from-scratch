@@ -95,3 +95,46 @@ def sentence_chunking(text, max_chars=1000, overlap_sentences=1):
     return chunks
 ```
 
+# Strategic Guidelines:
+
+1. Start Simple, Iterate: Begin with sentence or paragraph chunking, then optimize based on retrieval metrics
+2. Match Chunking to Retrieval: Your chunking strategy should align with your embedding model's strengths
+3. Overlap is Your Friend: Always include overlap (10-20%) to prevent context loss at boundaries
+4. Preserve Structure: Document structure (headers, lists, tables) is valuable metadata—don't discard it
+5. Test with Real Queries: Evaluate chunking effectiveness with actual user queries, not synthetic tests
+
+# Case Study: Enterprise RAG System
+
+## Scenario:
+A legal document retrieval system processing 50,000 contracts (average 25 pages each)
+
+# Chunking Strategy Evolution:
+
+## Phase 1: Basic Character Chunking
+
+**Chunk size**: 1000 characters, 200 overlap
+
+**Results**: 42% retrieval accuracy, high false positives
+
+## Phase 2: Paragraph + Structure
+
+Preserved section headers, used semantic grouping
+
+**Results:** 68% retrieval accuracy
+
+## **Phase 3:** Hierarchical + Metadata
+
+Multiple granularities: section, subsection, clause
+
+Enriched with contract metadata (clause types, dates, parties)
+
+**Results**: 89% retrieval accuracy, 40% reduction in context tokens
+
+# Conclusion : 
+
+Chunking is not a one-size-fits-all problem. The optimal strategy depends on your document types, retrieval needs, and downstream tasks. By understanding the trade-offs between chunk size, overlap, and semantic coherence, you can design chunking pipelines that dramatically improve retrieval quality and system performance.
+
+Remember: good chunking is invisible. When done right, users never notice it—they just get accurate, contextual responses. When done wrong, it becomes the bottleneck in your RAG pipeline.
+
+Start with simple strategies, measure relentlessly, and iterate toward the chunking approach that best serves your specific use case.
+
