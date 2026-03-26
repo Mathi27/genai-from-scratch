@@ -175,3 +175,5 @@ It focuses on **core concepts you must understand** to start and grow in GenAI â
 | RAG-based QA system | Retrieval pipelines |
 | Tool-using agent | Planning & execution |
 | End-to-end GenAI application | Production concerns |
+
+Ongoing....
